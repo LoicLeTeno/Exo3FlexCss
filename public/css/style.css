@@ -1,0 +1,50 @@
+header,footer {
+    background-color: blue;
+
+    border-radius: 10px;
+
+    width: 100%;
+    height: 80px;
+}
+
+.container {
+    display: flex;
+    
+    height: 800px;
+}
+
+nav {
+    background-color: coral;
+
+    display: flex;
+    border-radius: 10px;
+
+    margin: 5px;
+    
+    width: 20%;
+    order: 1;
+}
+
+article {
+    background-color: cornflowerblue;
+    
+    display: flex;
+    border-radius: 10px;
+
+    margin: 5px;
+
+    width: 60%;
+    order: 2;
+}
+
+aside {
+    background-color: coral;
+
+    display: flex;
+    border-radius: 10px;
+
+    margin: 5px;
+
+    width: 20%;
+    order: 3;
+}
